@@ -7,7 +7,7 @@ import Login from './screens/Login/index';
 import AsyncStorege from '@react-native-community/async-storage'
 import { Node } from 'react-native-reanimated';
 import Cadastrar from '../src/screens/Cadastro/index'
-import Cadastrar from '../src/screens/Compras/index'
+import Compras from '../src/screens/Compras/index'
 const Stack = createStackNavigator()
 
 export default function app(){
@@ -45,6 +45,6 @@ export default function app(){
 
 		)
 	}else{
-		return (<Cadastrar/>)
+		return (<Compras/>)
 	}
 }
