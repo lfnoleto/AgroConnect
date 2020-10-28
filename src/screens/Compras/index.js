@@ -5,7 +5,7 @@ import Feather from 'react-native-vector-icons/Feather'
 import { RectButton } from 'react-native-gesture-handler';
 import styles from './styles'
 import DatePicker from 'react-native-datepicker'
-import DateTimePicker from '@react-native-community/datetimepicker';
+//import DateTimePicker from '@react-native-community/datetimepicker'; <DatePicker format='DD/MM/YYYY' date={date} style={styles.data}/>
 
 
 export default function OrphanageData() {
@@ -25,7 +25,7 @@ export default function OrphanageData() {
         <ScrollView style={styles.container} contentContainerStyle={{ padding: 24 }}>
         
             <Text style={styles.title}>Compras</Text>
-            <DatePicker format='DD/MM/YYYY' date={date} style={styles.data}/>
+            
 
             <Text style={styles.label}> ID - Brinco</Text>
             <TextInput
